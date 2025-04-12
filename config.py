@@ -60,7 +60,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.\n\n nonton ribuan vidio tanpa ribet klik link/bot =>> https://t.me/vipmurahcrot/18 </b>",
+    "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.\n\n ᴊᴏɪɴ ᴠɪᴘ ᴛᴇʀᴍᴜʀᴀʜ ᴅᴀɴ ʟᴇɴɢᴋᴀᴘ ᴍᴜʟᴀɪ 20ᴋ
+https://lynk.id/vvipaddict69 </b>",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "").split())]
@@ -70,7 +71,8 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya Terlebih dahulu untuk Melihat File yang saya Bagikan\n\nSilakan Join Ke Channel & Group Terlebih Dahulu\n\n nonton ribuan vidio tanpa ribet klik link/bot =>> https://t.me/vipmurahcrot/18 </b>",
+    "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya Terlebih dahulu untuk Melihat File yang saya Bagikan\n\nSilakan Join Ke Channel & Group Terlebih Dahulu\n\n ᴊᴏɪɴ ᴠɪᴘ ᴛᴇʀᴍᴜʀᴀʜ ᴅᴀɴ ʟᴇɴɢᴋᴀᴘ ᴍᴜʟᴀɪ 20ᴋ
+https://lynk.id/vvipaddict69 </b>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
